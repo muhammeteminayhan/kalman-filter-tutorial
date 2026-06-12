@@ -1,7 +1,17 @@
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
 .venv/
 venv/
-.idea/
-.DS_Store
+env/
+
+# Real flight-log data is NOT distributed (size + licensing).
+# Everything in data/ is ignored except its README placeholder.
+/data/*
+!/data/README.md
 *.csv
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
